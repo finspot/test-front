@@ -13,8 +13,11 @@ Une fois le travail terminé, vous devrez le mettre en ligne.
 ## Specs fonctionnelles
 
 Au chargement, aucun élément n'est sélectionné.
+
 La carte du header affiche le nombre d'éléments sélectionnés.
+
 Au clic sur une Carte, elle passe dans un état 'sélectionnée'.
+
 Le bouton de validation log tous les éléments sélectionnés sous format d'un tableau avec toutes ses infos (id, title, description).
 
 ## Résultat attendu
@@ -25,16 +28,24 @@ Le bouton de validation log tous les éléments sélectionnés sous format d'un 
 
 ### Couleurs
 
-![Color Primary](primary.png) #35AE77
-![Color Neutral](neutral.png) #173753
-![Color accent](accent.png) #1E88D2
+- ![Color Primary](primary.png) #35AE77
+- ![Color Neutral](neutral.png) #173753
+- ![Color accent](accent.png) #1E88D2
 
 ### Layout
 
 Espacement entre le header et la liste : 24px
+
 Espacement entre les éléments : 16px
+
 Chaque carte doit avoir une hauteur fixe de 300px
-Titre : font: 18px bold; line-height: 26px;
+
+### Titre
+
+```
+font: 18px bold;
+line-height: 26px;
+```
 
 ### Description
 
