@@ -16,7 +16,7 @@ Au chargement, aucun élément n'est sélectionné.
 
 La carte du header affiche le nombre d'éléments sélectionnés.
 
-Au clic sur une Carte, elle passe dans un état 'sélectionnée'.
+Au clic sur une Carte, celle-ci passe dans un état 'sélectionnée'.
 
 Le bouton de validation log tous les éléments sélectionnés sous format d'un tableau avec toutes ses infos (id, title, description).
 
@@ -99,8 +99,8 @@ cf. fichier joint : characters.js
 
 ### Layout
 
-1 carte jusqu'à 600px, 2 cartes entre 600 et 840, 3 cartes au-delà de 840
+On affiche une seule carte jusqu'à 600px, 2 cartes entre 600px et 840px, 3 cartes au-delà de 840px.
 
 ### Carte
 
-padding 16px jusqu'à 720px, 24px au-delà
+Un Carte a un padding de 16px jusqu'à 720px, 24px au-delà.
