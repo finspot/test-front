@@ -26,19 +26,21 @@ Lors des entretiens en personne, nous aurons une discussion autour du code, des 
 
 ## Specs fonctionnelles
 
-Au chargement, aucun élément n'est sélectionné.
+La liste de personnages est définie dans le fichier `src/config/characters.js`
 
-Dans le header, le titre affiche le nombre d'éléments sélectionnés, le contenu le nom de chaque héros.
+Au premier chargement de la page, aucun élément n'est sélectionné.
 
-Au clic sur une Carte, celle-ci passe dans un état 'sélectionnée', on peut alors la déselectionner.
+Le header affiche en temps réel le nombre de cartes sélectionnés, ainsi que leur titre (séparés par des virgules).
 
-Le bouton de validation log tous les éléments sélectionnés sous format d'un tableau d'objets avec toutes ses infos (id, title, description).
+Au clic sur le bouton "Sélectionner" d'une carte, celle-ci passe dans un état 'sélectionnée' : ses couleurs et le texte de son bouton changent. On peut alors la déselectionner en recliquant sur ce bouton.
+
+Le bouton de validation "Validate", au clic, log dans la console tous les éléments sélectionnés sous la format d'un tableau d'objets `{id, title, description}`.
 
 La validation n'est possible que lorsqu'il y a entre 2 et 4 éléments sélectionnés. Lorsque ce n'est pas le cas, le bouton n'est pas affiché.
 
-L'annulation désélectionne toutes les cartes sélectionnées mais conserve le champs de recherche.
+Le champs de recherche filtre en temps réel les cartes de personnages selon leur titre. (ex. : lorsque je tape 'ar', il ne doit apparaître que les cartes de 'Mario' et 'Samus Aran').
 
-Le champs de recherche filtre les cartes de personnages sur leur titre. (ex. : lorsque je tape 'ar', il ne doit apparaître que les cartes de 'Mario' et 'Samus Aran')
+Le bouton d'annulation "Clear" désélectionne toutes les cartes, mais conserve la recherche en cours.
 
 ## Résultat attendu
 
