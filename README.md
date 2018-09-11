@@ -2,15 +2,15 @@
 
 Ce test a pour but d'évaluer votre niveau en développement front-end, React en particulier. Il a été conçu pour vous prendre environ 2h à réaliser.
 
-Le but est de développer une mini-application en React répondant aux specs ci-dessous. Nous évaluerons le résultat selon les critères suivant, dans cet ordre : 
-- est-ce que l'inteface est bien celle attendue (espaces, couleurs, comportement responsive)
+Le but est de développer une mini-application en React répondant aux specs ci-dessous. Nous évaluerons le résultat selon les critères suivants, dans cet ordre : 
 - est-ce que les fonctionnalités en place correspondent aux specs (recherche, critères de validation, ...)
 - est-ce que le code est lisible, maintenable, et évolutif
+- est-ce que l'interface est bien celle attendue (espaces, couleurs, comportement responsive)
 - est-ce que toutes les fonctionnalités sont implémentées
 
-Derrière ça, vous êtez libre à 100% sur les décisions technique, architecturales, et de dépendances ce projet.
+Derrière ça, vous êtez libre à 100% de décider de l'architecture technique du code, et des librairies à utiliser ou non.
 
-Si les specs ne sont pas claires ou ambigues, c'est un problème de notre côté et nous en somes désolé. Prévenez nous, on ne vous en tiendra pas rigueur, bien au contraire.
+Si les specs ne sont pas claires ou ambiguës, c'est un problème de notre côté et nous en sommes désolé. Prévenez-nous, on ne vous en tiendra pas rigueur, bien au contraire.
 
 Si vous sentez que vous n'aurez pas le temps de tout faire, n'hésitez pas à laisser de côté quelques fonctionnalités. Nous préférons voir un projet solide avec moins de fonctionnalités qu'un projet buggé et/ou non-fonctionnel.
 
@@ -36,7 +36,7 @@ Le bouton de validation log tous les éléments sélectionnés sous format d'un 
 
 La validation n'est possible que lorsqu'il y a entre 2 et 4 éléments sélectionnés. Lorsque ce n'est pas le cas, le bouton n'est pas affiché.
 
-L'annulation désélectionne toutes les cartes sélectionnées mais garde le champs de recherche.
+L'annulation désélectionne toutes les cartes sélectionnées mais conserve le champs de recherche.
 
 Le champs de recherche filtre les cartes de personnages sur leur titre. (ex. : lorsque je tape 'ar', il ne doit apparaître que les cartes de 'Mario' et 'Samus Aran')
 
