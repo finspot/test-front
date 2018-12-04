@@ -2,7 +2,8 @@
 
 Ce test a pour but d'évaluer votre niveau en développement front-end, React en particulier. Il a été conçu pour vous prendre environ 2h à réaliser.
 
-Le but est de développer une mini-application en React répondant aux specs ci-dessous. Nous évaluerons le résultat selon les critères suivants, dans cet ordre : 
+Le but est de développer une mini-application en React répondant aux specs ci-dessous. Nous évaluerons le résultat selon les critères suivants, dans cet ordre :
+
 - est-ce que les fonctionnalités en place correspondent aux specs (recherche, critères de validation, ...)
 - est-ce que le code est lisible, maintenable, et évolutif
 - est-ce que l'interface est bien celle attendue (espaces, couleurs, comportement responsive)
@@ -58,4 +59,4 @@ La largeur max du conteneur est de 1240px. On affiche une seule carte jusqu'à 6
 
 ### Carte
 
-Un Carte a un padding de 16px jusqu'à 720px, 24px au-delà.
+Un Carte a un padding de 16px jusqu'à 720px, 24px au-delà. Sa typo est la même que celle du header.
