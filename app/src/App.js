@@ -1,19 +1,41 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
-import './App.scss'
+import styled from 'styled-components'
+import logo from './assets/logo.png'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Bienvenue sur le test front-end de Pretto</h1>
-        </header>
-        <p className="App-intro">Vous trouverez toutes les instructions dans le README.md</p>
-      </div>
+      <Main>
+        <div>
+          <Header>
+            <Logo src={logo} alt="logo" />
+            <Title>Bienvenue sur le test front-end de Pretto</Title>
+          </Header>
+          <p>Vous trouverez toutes les instructions dans le README.md</p>
+        </div>
+      </Main>
     )
   }
 }
 
 export default App
+
+const Main = styled.main`
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+`
+const Header = styled.header`
+  height: 150px;
+  padding: 24px;
+`
+const Logo = styled.img`
+  height: 80px;
+`
+const Title = styled.h1`
+  margin-top: 24px;
+  font-size: 32px;
+`
